@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: fe6efede940994390b2c0f4d0fe51ab9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Battlefield_RuinsA
+    100004: Battlefield_RuinsB
+    100006: Battlefield_RuinsC
+    100008: PebbleA
+    100010: PebbleB
+    100012: PebbleC
+    100014: PebbleD
+    100016: RubbleA
+    100018: RubbleB
+    100020: RubbleC
+    100022: RuinsA
+    100024: RuinsB
+    100026: RuinsC
+    100028: RuinsD
+    400000: //RootNode
+    400002: Battlefield_RuinsA
+    400004: Battlefield_RuinsB
+    400006: Battlefield_RuinsC
+    400008: PebbleA
+    400010: PebbleB
+    400012: PebbleC
+    400014: PebbleD
+    400016: RubbleA
+    400018: RubbleB
+    400020: RubbleC
+    400022: RuinsA
+    400024: RuinsB
+    400026: RuinsC
+    400028: RuinsD
+    2100000: phong1
+    2300000: Battlefield_RuinsA
+    2300002: Battlefield_RuinsB
+    2300004: Battlefield_RuinsC
+    2300006: PebbleA
+    2300008: PebbleB
+    2300010: PebbleC
+    2300012: PebbleD
+    2300014: RubbleA
+    2300016: RubbleB
+    2300018: RubbleC
+    2300020: RuinsA
+    2300022: RuinsB
+    2300024: RuinsC
+    2300026: RuinsD
+    3300000: Battlefield_RuinsA
+    3300002: Battlefield_RuinsB
+    3300004: Battlefield_RuinsC
+    3300006: PebbleA
+    3300008: PebbleB
+    3300010: PebbleC
+    3300012: PebbleD
+    3300014: RubbleA
+    3300016: RubbleB
+    3300018: RubbleC
+    3300020: RuinsA
+    3300022: RuinsB
+    3300024: RuinsC
+    3300026: RuinsD
+    4300000: PebbleC
+    4300002: PebbleD
+    4300004: Battlefield_RuinsC
+    4300006: Battlefield_RuinsB
+    4300008: Battlefield_RuinsA
+    4300010: RubbleA
+    4300012: RubbleB
+    4300014: RubbleC
+    4300016: PebbleA
+    4300018: PebbleB
+    4300020: RuinsA
+    4300022: RuinsD
+    4300024: RuinsB
+    4300026: RuinsC
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

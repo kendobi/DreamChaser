@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: bad7937ab79954165b9de3a76bafc24c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bridge1
+    100002: centerstone
+    100004: //RootNode
+    100006: fathole
+    100008: longbridge
+    100010: shape1
+    100012: shape2
+    100014: spikey1
+    100016: spikey2
+    100018: tablet
+    100020: tallhole
+    400000: bridge1
+    400002: centerstone
+    400004: //RootNode
+    400006: fathole
+    400008: longbridge
+    400010: shape1
+    400012: shape2
+    400014: spikey1
+    400016: spikey2
+    400018: tablet
+    400020: tallhole
+    2100000: phong1
+    2300000: bridge1
+    2300002: centerstone
+    2300004: fathole
+    2300006: longbridge
+    2300008: shape1
+    2300010: shape2
+    2300012: spikey1
+    2300014: spikey2
+    2300016: tablet
+    2300018: tallhole
+    3300000: bridge1
+    3300002: centerstone
+    3300004: fathole
+    3300006: longbridge
+    3300008: shape1
+    3300010: shape2
+    3300012: spikey1
+    3300014: spikey2
+    3300016: tablet
+    3300018: tallhole
+    4300000: spikey1
+    4300002: longbridge
+    4300004: fathole
+    4300006: tablet
+    4300008: shape1
+    4300010: shape2
+    4300012: spikey2
+    4300014: bridge1
+    4300016: centerstone
+    4300018: tallhole
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
