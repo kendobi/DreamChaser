@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: b91996a4ad4df4e9ba8f5b8cdc81695c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Circle2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7461
+      width: 622
+      height: 620
+    spriteID: fba6fc156ff3742c8b8725fbd9340e86
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -710, y: 6736}
+  - name: circle1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 7461
+      width: 503
+      height: 504
+    spriteID: 157d3831b53e244e988de305cd1f6213
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -141, y: 6622}
+  - name: Circle3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2866
+      y: 7300
+      width: 670
+      height: 671
+    spriteID: 4f793b1f1460f43cc87ee67a1316d3f6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2177, y: 6606}
+  - name: Circle4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 7300
+      width: 798
+      height: 798
+    spriteID: d099509e2ede14933aefacf71eaa31a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1431, y: 6671}
+  - name: DarkCircle1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3627
+      y: 1575
+      width: 1092
+      height: 1089
+    spriteID: 1fa18c1517ebe4e63bfa562119d0e523
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3148, y: 1097}
+  - name: WavyCircle1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 6064
+      width: 1134
+      height: 1228
+    spriteID: f67e89f301b3a41da86b36e325562cf0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1603, y: 5654}
+  - name: DarkCircle2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 3212
+      width: 1480
+      height: 1456
+    spriteID: bceb68071b75343e8b76ce68525f6c2b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1776, y: 2931}
+  - name: WavyCircle2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 4676
+      width: 1524
+      height: 1380
+    spriteID: 862046351df784381889c47c0ce352cf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1798, y: 4342}
+  - name: Layer 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1145
+      y: 7461
+      width: 501
+      height: 482
+    spriteID: 5c3a369ceb6224d3981906762e59e2c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 371, y: 6675}
+  - name: DarkCircle3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3627
+      y: 4
+      width: 1561
+      height: 1563
+    spriteID: ff8a5a57621be4722a60086f4a88cda5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3383, y: -238}
+  - name: Circle5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 1725
+      width: 1479
+      height: 1479
+    spriteID: 4448bac9e2e1146f98ea3ec0f8d3b133
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1777, y: 1455}
+  - name: WavyCircle4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 4
+      width: 1559
+      height: 1713
+    spriteID: 56e38f1b1add44f4986f400d463ee085
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1815, y: -163}
+  - name: Circle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3988
+      width: 1822
+      height: 1822
+    spriteID: 0385177c1f7cd4df8b5397c19e83739e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -107, y: 3888}
+  - name: Circle_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5818
+      width: 1636
+      height: 1635
+    spriteID: 894849870adc24f159ac0c8e858af1d0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -200, y: 5624}
+  - name: Circle_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2060
+      width: 1920
+      height: 1920
+    spriteID: 1f4695a250e10465f950bd1e00f93d7a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -60, y: 2003}
+  - name: BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2048
+      height: 2048
+    spriteID: 56192b83e7df6410bb23d08d7e98421b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2048, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Circle2
+    spriteName: Circle2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fba6fc156ff3742c8b8725fbd9340e86
+    layerID: 6
+    mosaicPosition: {x: 4, y: 7461}
+  - name: circle1
+    spriteName: circle1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 157d3831b53e244e988de305cd1f6213
+    layerID: 5
+    mosaicPosition: {x: 634, y: 7461}
+  - name: Circle3
+    spriteName: Circle3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4f793b1f1460f43cc87ee67a1316d3f6
+    layerID: 7
+    mosaicPosition: {x: 2866, y: 7300}
+  - name: Circle4
+    spriteName: Circle4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d099509e2ede14933aefacf71eaa31a2
+    layerID: 4
+    mosaicPosition: {x: 2060, y: 7300}
+  - name: DarkCircle1
+    spriteName: DarkCircle1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1fa18c1517ebe4e63bfa562119d0e523
+    layerID: 10
+    mosaicPosition: {x: 3627, y: 1575}
+  - name: WavyCircle1
+    spriteName: WavyCircle1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f67e89f301b3a41da86b36e325562cf0
+    layerID: 28
+    mosaicPosition: {x: 2060, y: 6064}
+  - name: DarkCircle2
+    spriteName: DarkCircle2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bceb68071b75343e8b76ce68525f6c2b
+    layerID: 13
+    mosaicPosition: {x: 2060, y: 3212}
+  - name: WavyCircle2
+    spriteName: WavyCircle2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 862046351df784381889c47c0ce352cf
+    layerID: 26
+    mosaicPosition: {x: 2060, y: 4676}
+  - name: Layer 8
+    spriteName: Layer 8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5c3a369ceb6224d3981906762e59e2c1
+    layerID: 11
+    mosaicPosition: {x: 1145, y: 7461}
+  - name: DarkCircle3
+    spriteName: DarkCircle3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff8a5a57621be4722a60086f4a88cda5
+    layerID: 19
+    mosaicPosition: {x: 3627, y: 4}
+  - name: Circle5
+    spriteName: Circle5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4448bac9e2e1146f98ea3ec0f8d3b133
+    layerID: 8
+    mosaicPosition: {x: 2060, y: 1725}
+  - name: WavyCircle4
+    spriteName: WavyCircle4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56e38f1b1add44f4986f400d463ee085
+    layerID: 27
+    mosaicPosition: {x: 2060, y: 4}
+  - name: Circle
+    spriteName: Circle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0385177c1f7cd4df8b5397c19e83739e
+    layerID: 22
+    mosaicPosition: {x: 4, y: 3988}
+  - name: Circle
+    spriteName: Circle_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 894849870adc24f159ac0c8e858af1d0
+    layerID: 14
+    mosaicPosition: {x: 4, y: 5818}
+  - name: Circle
+    spriteName: Circle_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1f4695a250e10465f950bd1e00f93d7a
+    layerID: 9
+    mosaicPosition: {x: 4, y: 2060}
+  - name: BG
+    spriteName: BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56192b83e7df6410bb23d08d7e98421b
+    layerID: 18
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Mandalas_03 Texture
+  prefabAssetName: Mandalas_03 Prefab
+  spriteLibAssetName: Mandalas_03 Sprite Lib
+  secondarySpriteTextures: []
