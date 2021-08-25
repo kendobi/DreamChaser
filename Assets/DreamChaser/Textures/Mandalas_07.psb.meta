@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: 048110ea4eafe4250bf55b33418d0182
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Circle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2816
+      y: 7883
+      width: 304
+      height: 304
+    spriteID: 25cbdd07bbfdd4d5487828ddf6ac1e3e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1938, y: 7015}
+  - name: Rings
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 3024
+      width: 1329
+      height: 1329
+    spriteID: f30da91c1e3bc45ba8e4c3d1b037131d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3751, y: 2664}
+  - name: Petals1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3412
+      y: 7287
+      width: 440
+      height: 440
+    spriteID: 0c0e2b342230c49249cfaf8bbdc9e3b8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2608, y: 6483}
+  - name: Petals2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2816
+      y: 7287
+      width: 588
+      height: 588
+    spriteID: e6496e7facbde4c868645fc700ccf979
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2086, y: 6557}
+  - name: Petals3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 7287
+      width: 748
+      height: 748
+    spriteID: f8ee5b721fec7464abcb663e5a0ac2fe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1410, y: 6637}
+  - name: Petals4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5706
+      y: 4
+      width: 940
+      height: 940
+    spriteID: a801214cbf72045d4861dcf5660cb8b9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5152, y: -550}
+  - name: DarkGlow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 5647
+      width: 1236
+      height: 1236
+    spriteID: 9b1b0c9f1562b43d99408b314858de65
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3710, y: 5241}
+  - name: Petals5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 6891
+      width: 1134
+      height: 1134
+    spriteID: af1fa48d56d3345d586ff898073a9a67
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3659, y: 6434}
+  - name: DarkGlow2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 4361
+      width: 1278
+      height: 1278
+    spriteID: 9ebb74aa6071e4b248f4d5697ac3d3b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3731, y: 3976}
+  - name: Petals6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 1594
+      width: 1422
+      height: 1422
+    spriteID: 8c078ecc7475a436aad608be4fc9e619
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3803, y: 1281}
+  - name: DarkGlow3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4116
+      y: 4
+      width: 1582
+      height: 1582
+    spriteID: cc9515aa8fd4049ef9ce0cedb1904aa1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3883, y: -229}
+  - name: Ring2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 2060
+      width: 1782
+      height: 1782
+    spriteID: 1e683b0852e0a43098778da529f5bf91
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1921, y: 1929}
+  - name: Petals7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 3850
+      width: 1748
+      height: 1748
+    spriteID: ad3cee83940094050b5f5ebb8d861642
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1910, y: 3700}
+  - name: Petals8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2048
+      height: 2048
+    spriteID: da59e6ab5e2544818b4f1140eb311b8f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: DarkGlow4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2060
+      width: 2048
+      height: 2048
+    spriteID: 2560e1eb5b8eb4b6da5053d2ab0776f9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2060}
+  - name: Circle1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 5606
+      width: 1673
+      height: 1673
+    spriteID: 631ef5ecd6a1d4c8c82dd4490eafdc28
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1867, y: 5418}
+  - name: Circle2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6172
+      width: 1999
+      height: 1999
+    spriteID: 30d5ba5a6510446ed972afe3e6be0e3f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -26, y: 6147}
+  - name: Circle3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4116
+      width: 2048
+      height: 2048
+    spriteID: 227b30baa9f18431f8e766fbb1809dc4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4116}
+  - name: BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 4
+      width: 2048
+      height: 2048
+    spriteID: 6b8770157f200433fa9873713df7c087
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2060, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2048, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Circle
+    spriteName: Circle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 25cbdd07bbfdd4d5487828ddf6ac1e3e
+    layerID: 24
+    mosaicPosition: {x: 2816, y: 7883}
+  - name: Rings
+    spriteName: Rings
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f30da91c1e3bc45ba8e4c3d1b037131d
+    layerID: 43
+    mosaicPosition: {x: 4116, y: 3024}
+  - name: Petals1
+    spriteName: Petals1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0c0e2b342230c49249cfaf8bbdc9e3b8
+    layerID: 39
+    mosaicPosition: {x: 3412, y: 7287}
+  - name: Petals2
+    spriteName: Petals2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e6496e7facbde4c868645fc700ccf979
+    layerID: 31
+    mosaicPosition: {x: 2816, y: 7287}
+  - name: Petals3
+    spriteName: Petals3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f8ee5b721fec7464abcb663e5a0ac2fe
+    layerID: 29
+    mosaicPosition: {x: 2060, y: 7287}
+  - name: Petals4
+    spriteName: Petals4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a801214cbf72045d4861dcf5660cb8b9
+    layerID: 28
+    mosaicPosition: {x: 5706, y: 4}
+  - name: DarkGlow
+    spriteName: DarkGlow
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b1b0c9f1562b43d99408b314858de65
+    layerID: 37
+    mosaicPosition: {x: 4116, y: 5647}
+  - name: Petals5
+    spriteName: Petals5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: af1fa48d56d3345d586ff898073a9a67
+    layerID: 27
+    mosaicPosition: {x: 4116, y: 6891}
+  - name: DarkGlow2
+    spriteName: DarkGlow2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9ebb74aa6071e4b248f4d5697ac3d3b6
+    layerID: 38
+    mosaicPosition: {x: 4116, y: 4361}
+  - name: Petals6
+    spriteName: Petals6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8c078ecc7475a436aad608be4fc9e619
+    layerID: 25
+    mosaicPosition: {x: 4116, y: 1594}
+  - name: DarkGlow3
+    spriteName: DarkGlow3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cc9515aa8fd4049ef9ce0cedb1904aa1
+    layerID: 35
+    mosaicPosition: {x: 4116, y: 4}
+  - name: Ring2
+    spriteName: Ring2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e683b0852e0a43098778da529f5bf91
+    layerID: 45
+    mosaicPosition: {x: 2060, y: 2060}
+  - name: Petals7
+    spriteName: Petals7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ad3cee83940094050b5f5ebb8d861642
+    layerID: 30
+    mosaicPosition: {x: 2060, y: 3850}
+  - name: Petals8
+    spriteName: Petals8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: da59e6ab5e2544818b4f1140eb311b8f
+    layerID: 40
+    mosaicPosition: {x: 4, y: 4}
+  - name: DarkGlow4
+    spriteName: DarkGlow4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2560e1eb5b8eb4b6da5053d2ab0776f9
+    layerID: 36
+    mosaicPosition: {x: 4, y: 2060}
+  - name: Circle1
+    spriteName: Circle1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 631ef5ecd6a1d4c8c82dd4490eafdc28
+    layerID: 32
+    mosaicPosition: {x: 2060, y: 5606}
+  - name: Circle2
+    spriteName: Circle2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 30d5ba5a6510446ed972afe3e6be0e3f
+    layerID: 33
+    mosaicPosition: {x: 4, y: 6172}
+  - name: Circle3
+    spriteName: Circle3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 227b30baa9f18431f8e766fbb1809dc4
+    layerID: 34
+    mosaicPosition: {x: 4, y: 4116}
+  - name: BG
+    spriteName: BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b8770157f200433fa9873713df7c087
+    layerID: 18
+    mosaicPosition: {x: 2060, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Mandalas_07 Texture
+  prefabAssetName: Mandalas_07 Prefab
+  spriteLibAssetName: Mandalas_07 Sprite Lib
+  secondarySpriteTextures: []
