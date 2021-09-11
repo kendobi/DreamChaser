@@ -94,7 +94,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2060
+      x: 2054
       y: 4024
       width: 724
       height: 656
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1395, y: 3304}
+    uvTransform: {x: 1389, y: 3304}
   - name: Square
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -117,7 +117,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 1376
-      y: 5568
+      y: 5566
       width: 570
       height: 570
     spriteID: 334525d7d54664430b4f29b394de032b
@@ -130,7 +130,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 637, y: 4819}
+    uvTransform: {x: 637, y: 4817}
   - name: Circle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -139,7 +139,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 1222
-      y: 6940
+      y: 6938
       width: 700
       height: 700
     spriteID: 7adf2d0ef860c4b04acd0cb410c967d2
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 548, y: 6256}
+    uvTransform: {x: 548, y: 6254}
   - name: Lines
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,7 +160,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2060
+      x: 2054
       y: 3134
       width: 882
       height: 882
@@ -174,7 +174,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1477, y: 2551}
+    uvTransform: {x: 1471, y: 2551}
   - name: Petals1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -183,7 +183,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 5568
+      y: 5566
       width: 1364
       height: 1364
     spriteID: 7b5783ead8c4f484eac3440736055ef9
@@ -196,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -338, y: 5226}
+    uvTransform: {x: -338, y: 5224}
   - name: Petals2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -204,7 +204,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2060
+      x: 2054
       y: 2060
       width: 1066
       height: 1066
@@ -218,7 +218,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1569, y: 1569}
+    uvTransform: {x: 1563, y: 1569}
   - name: Square2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -227,7 +227,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 6940
+      y: 6938
       width: 1210
       height: 1210
     spriteID: c8fe1ebf388ba4841a33308266d9440d
@@ -240,7 +240,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -414, y: 6524}
+    uvTransform: {x: -414, y: 6522}
   - name: Circle2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -249,7 +249,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4116
+      y: 4114
       width: 1418
       height: 1444
     spriteID: ca50e19754f4543eb978987387b74467
@@ -262,7 +262,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -318, y: 3821}
+    uvTransform: {x: -318, y: 3819}
   - name: Circle3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -285,7 +285,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1782, y: -246}
-  - name: Glow
+  - name: Layer 0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -296,7 +296,7 @@ ScriptedImporter:
       y: 4
       width: 2048
       height: 2048
-    spriteID: b4be43b476e584038878586d4655da19
+    spriteID: 76464e849b70640ac86b9e78ce044fdd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -307,7 +307,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Background
+  - name: Glow
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -316,9 +316,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 2060
-      width: 2048
-      height: 2048
-    spriteID: e9652bcc583b845e99f5e64b888ce570
+      width: 2042
+      height: 2046
+    spriteID: 07a0cd5ef717945fe8a65137729411ce
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -328,7 +328,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2060}
+    uvTransform: {x: -2, y: 2060}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -354,56 +354,56 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: f5c4113bd88ac42448f3622722c7f2de
     layerID: 7
-    mosaicPosition: {x: 2060, y: 4024}
+    mosaicPosition: {x: 2054, y: 4024}
   - name: Square
     spriteName: Square
     isGroup: 0
     parentIndex: -1
     spriteID: 334525d7d54664430b4f29b394de032b
     layerID: 6
-    mosaicPosition: {x: 1376, y: 5568}
+    mosaicPosition: {x: 1376, y: 5566}
   - name: Circle
     spriteName: Circle
     isGroup: 0
     parentIndex: -1
     spriteID: 7adf2d0ef860c4b04acd0cb410c967d2
     layerID: 8
-    mosaicPosition: {x: 1222, y: 6940}
+    mosaicPosition: {x: 1222, y: 6938}
   - name: Lines
     spriteName: Lines
     isGroup: 0
     parentIndex: -1
     spriteID: 4e4ee40da0adf4a9cb1b45750d61fee7
     layerID: 12
-    mosaicPosition: {x: 2060, y: 3134}
+    mosaicPosition: {x: 2054, y: 3134}
   - name: Petals1
     spriteName: Petals1
     isGroup: 0
     parentIndex: -1
     spriteID: 7b5783ead8c4f484eac3440736055ef9
     layerID: 2
-    mosaicPosition: {x: 4, y: 5568}
+    mosaicPosition: {x: 4, y: 5566}
   - name: Petals2
     spriteName: Petals2
     isGroup: 0
     parentIndex: -1
     spriteID: 5e12801b9bde7406bb3b3be59f9be68b
     layerID: 16
-    mosaicPosition: {x: 2060, y: 2060}
+    mosaicPosition: {x: 2054, y: 2060}
   - name: Square2
     spriteName: Square2
     isGroup: 0
     parentIndex: -1
     spriteID: c8fe1ebf388ba4841a33308266d9440d
     layerID: 9
-    mosaicPosition: {x: 4, y: 6940}
+    mosaicPosition: {x: 4, y: 6938}
   - name: Circle2
     spriteName: Circle2
     isGroup: 0
     parentIndex: -1
     spriteID: ca50e19754f4543eb978987387b74467
     layerID: 17
-    mosaicPosition: {x: 4, y: 4116}
+    mosaicPosition: {x: 4, y: 4114}
   - name: Circle3
     spriteName: Circle3
     isGroup: 0
@@ -415,16 +415,16 @@ ScriptedImporter:
     spriteName: Glow
     isGroup: 0
     parentIndex: -1
-    spriteID: b4be43b476e584038878586d4655da19
-    layerID: 10
-    mosaicPosition: {x: 4, y: 4}
-  - name: Background
-    spriteName: Background
+    spriteID: 07a0cd5ef717945fe8a65137729411ce
+    layerID: 19
+    mosaicPosition: {x: 4, y: 2060}
+  - name: Layer 0
+    spriteName: Layer 0
     isGroup: 0
     parentIndex: -1
-    spriteID: e9652bcc583b845e99f5e64b888ce570
-    layerID: 1
-    mosaicPosition: {x: 4, y: 2060}
+    spriteID: 76464e849b70640ac86b9e78ce044fdd
+    layerID: 18
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
     parts: []
