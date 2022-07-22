@@ -289,6 +289,7 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\polyquest_v1_rocks\shaders\PolyboxCoreForward.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\DreamChaser\Fonts\Nunito\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

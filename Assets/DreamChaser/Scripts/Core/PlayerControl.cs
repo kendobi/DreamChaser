@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 /// <summary>
@@ -47,7 +47,7 @@ public class PlayerControl : MonoBehaviour
 	private float tilt = 0.0f;				// current tilt angle
 	private float speedMultiplier = 1.0f;	// speed multiplier for speedboosts/slow motion effects
 	private bool crashed = false;			// have we crashed?
-	private float startingSpeed;			// initial speed at the start of the game
+	private float startingSpeed = 50.0f;			// initial speed at the start of the game
 
 	private GameObject shipModel;			// our vehicle model
 
