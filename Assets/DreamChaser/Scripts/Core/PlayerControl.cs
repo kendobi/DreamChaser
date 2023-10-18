@@ -168,7 +168,9 @@ public class PlayerControl : MonoBehaviour
 		//print (tilt);
 
 		//move player side to side while turning
-		transform.position = new Vector3 ((tilt / slide), height, 0.0f);
+		transform.position = new Vector3((tilt / slide), height, 0.0f);
+
+		
 
 
 

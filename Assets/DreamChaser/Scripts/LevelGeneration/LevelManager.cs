@@ -17,7 +17,10 @@ public class LevelManager : MonoBehaviour
 	[Tooltip("Width across the horizon in meters")]
 	public float horizonWidth = 300.0f;
 
-	public const float kBlockSize = 512.0f; 		// size of one block tile in x,z dimensions
+	public const float kBlockSize = 256.0f;         // size of one block tile in x,z dimensions
+	public float maxRangeLeft = -1500.0f;
+	public float maxRangeRight = -500.0f;
+	public GameObject playerLocation;
 
 	private List<GameObject> blocks = new List<GameObject>();	// the list of blocks that are currently 'live'
 
@@ -84,12 +87,12 @@ public class LevelManager : MonoBehaviour
 		int numBlocksRadius = Mathf.CeilToInt(horizonWidth / kBlockSize) / 2;
 		int numBlocksAcross = 2 * numBlocksRadius + 1;
 
-		// get the current LevelSection to generate the blocks for this row
-		levelSection.StartNewBlockRow(currentScrollPos);
+		// get the current LevelSection to generate the blocks for this row - took out currentScrollPos
+		levelSection.StartNewBlockRow(0.0f);
 		for(int x=-numBlocksRadius; x<=numBlocksRadius; ++x)
 		{
-			// generate a new block
-			GameObject block = levelSection.GenerateBlock(currentScrollX + x * kBlockSize, currentScrollPos);
+			// generate a new block - used to have (currentScrollX + ) in GenerateBlock
+			GameObject block = levelSection.GenerateBlock(x * kBlockSize, currentScrollPos);
 
 			// potentially spawn some powerups within the block
 			if(levelSection.PowerupSpawner != null)
@@ -155,12 +158,39 @@ public class LevelManager : MonoBehaviour
 		float zDelta = zSpeed * Time.deltaTime;
 		float xDelta = xSpeed * Time.deltaTime;
 		Vector3 posDelta = new Vector3(xDelta, 0.0f, zDelta);
+		Vector3 playerposDelta = new Vector3(xDelta, 0.0f, 0.0f);
 		for(int i=0; i<blocks.Count; ++i)
 		{
 			GameObject block = blocks[i];
 			Vector3 pos = block.transform.position;
-			pos -= posDelta;	// negative because we're moving the scenery, not the player.
+			Vector3 playerpos = playerLocation.transform.position;
+			//check if within side to side limits
+			if (playerpos.x <= maxRangeLeft || playerpos.x >= maxRangeRight)
+			{
+				// negative because we're moving the scenery, not the player.
+				posDelta = new Vector3(0.0f, 0.0f, zDelta);
+				playerposDelta = new Vector3(0.0f, 0.0f, 0.0f);
+				pos -= posDelta;
+				playerpos -= playerposDelta;
+				//reset playerpos
+				if(playerpos.x <= maxRangeLeft)
+                {
+					playerpos.x = (maxRangeLeft+1.0f);
+                }
+				if (playerpos.x >= maxRangeRight)
+				{
+					playerpos.x = (maxRangeRight-1.0f);
+				}
+				
+			}
+			else
+			{
+				pos -= posDelta;
+				playerpos -= playerposDelta;
+			}
+			print(playerpos);
 			block.transform.position = pos;
+			playerLocation.transform.position = playerpos;
 		}
 
 		// update our current scroll position
