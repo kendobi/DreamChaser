@@ -14,6 +14,8 @@ public class PlayerControl : MonoBehaviour
 
 	public float height = 3.0f;
 
+	public float depth = 10.0f;
+
 	[Tooltip("The starting speed of the vehicle - in m/s")]
 	public float speed = 80.0f;
 	[Tooltip("The steering speed of the vehicle")]
@@ -168,7 +170,7 @@ public class PlayerControl : MonoBehaviour
 		//print (tilt);
 
 		//move player side to side while turning
-		transform.position = new Vector3((tilt / slide), height, 0.0f);
+		transform.position = new Vector3((tilt / slide), height, depth);
 
 		
 
