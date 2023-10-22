@@ -206,7 +206,10 @@
      <Compile Include="Assets\ScaleOverTime.cs" />
      <Compile Include="Assets\ScaleOverTimeOnce.cs" />
      <Compile Include="Assets\SceneLoader.cs" />
+     <Compile Include="Assets\SineWaveMovement.cs" />
      <Compile Include="Assets\SpawnTimer.cs" />
+     <Compile Include="Assets\SpiritEnergy.cs" />
+     <Compile Include="Assets\SpiritEnergySpawner.cs" />
      <Compile Include="Assets\StylizedWater\Scripts\EnableDepthBuffer.cs" />
      <Compile Include="Assets\StylizedWater\Scripts\StylizedWater.cs" />
      <Compile Include="Assets\StylizedWater\Scripts\StylizedWaterBlur.cs" />
@@ -990,6 +993,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{A1192352-2600-DCB2-90D6-ADF2AC85DEB8}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="AllIn1VfxTexDemoAssembly.csproj">
+      <Project>{AB993775-0CC2-9725-948B-5381C94B410F}</Project>
+      <Name>AllIn1VfxTexDemoAssembly</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

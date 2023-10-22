@@ -848,6 +848,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AllIn1VfxTexDemoAssembly.csproj">
+      <Project>{AB993775-0CC2-9725-948B-5381C94B410F}</Project>
+      <Name>AllIn1VfxTexDemoAssembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
