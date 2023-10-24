@@ -49,7 +49,7 @@ public class PlayerControl : MonoBehaviour
 	private float tilt = 0.0f;				// current tilt angle
 	private float speedMultiplier = 1.0f;	// speed multiplier for speedboosts/slow motion effects
 	private bool crashed = false;			// have we crashed?
-	private float startingSpeed = 10.0f;			// initial speed at the start of the game
+	private float startingSpeed = 5.0f;			// initial speed at the start of the game
 
 	private GameObject shipModel;			// our vehicle model
 
@@ -66,7 +66,7 @@ public class PlayerControl : MonoBehaviour
 	/// Get the current speed of the vehicle in m/s
 	/// </summary>
 	/// <value>The current speed</value>
-	public float Speed		{ get { return crashed ? 0.0f : speed * speedMultiplier; } }
+	public float Speed		{ get { return crashed ? 1.0f : speed * speedMultiplier; } }
 
 	/// <summary>
 	/// Get or set the current speed multiplier.

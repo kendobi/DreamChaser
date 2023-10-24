@@ -151,7 +151,7 @@ public class LevelManager : MonoBehaviour
 		}
 		else if(GameManager.CurrentState == GameManager.GameState.InMenus)
 		{
-			zSpeed = 85.0f; // default scroll speed for when we're in the menus
+			zSpeed = 10.0f; // default scroll speed for when we're in the menus
 		}
 
 		// scroll all the blocks to give the impression the player is moving

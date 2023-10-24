@@ -208,7 +208,7 @@ public class GameManager : MonoBehaviour
 		if(screenBlur != null)
 			screenBlur.enabled = true;
 
-		SoundManager.PlayMusic("IntroLoop");
+		SoundManager.PlayMusic("Serenity");
 		ScreenFaderFadeOut(1.0f);
 	}
 
@@ -245,7 +245,7 @@ public class GameManager : MonoBehaviour
 		levelManager.StartGame();
 		state = GameState.Playing;
 
-		SoundManager.PlayMusic("GameLoop");
+		SoundManager.PlayMusic("Serenity");
 		ScreenFaderFadeOut(0.4f);
 	}
 
