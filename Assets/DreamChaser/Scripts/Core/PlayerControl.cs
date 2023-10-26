@@ -25,6 +25,8 @@ public class PlayerControl : MonoBehaviour
 	[Tooltip("The speed at which the vehicle turns")]
 	public float tiltSpeed = 10.0f;
 
+	public float tiltY = 1.5f;
+
 	public float slide = 20.0f;
 
 	[Tooltip("The Collision radius of the vehicle")]
@@ -166,6 +168,7 @@ public class PlayerControl : MonoBehaviour
 		tilt = Mathf.Lerp (tilt, targetTilt, tiltSpeed * Time.deltaTime);
 		Vector3 rot = transform.eulerAngles;
 		rot.z = tilt;
+		rot.y = -(tilt*tiltY);
 		transform.eulerAngles = rot;
 		//print (tilt);
 
