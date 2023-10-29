@@ -13,7 +13,7 @@ public class RotateOverTime : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (Vector3.forward * (RotationSpeed * Time.deltaTime));
+		transform.Rotate (Vector3.up * (RotationSpeed * Time.deltaTime));
 		
 	}
 }
