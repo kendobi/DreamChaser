@@ -78,6 +78,7 @@
      <Compile Include="Assets\DreamChaser\Scripts\Menus\ShipSkinMenuItem.cs" />
      <Compile Include="Assets\DreamChaser\Scripts\Menus\ShopMenuItem.cs" />
      <Compile Include="Assets\DreamChaser\Scripts\Menus\StoreMenu.cs" />
+     <Compile Include="Assets\DreamChaser\Scripts\MoveObjectOverTime.cs" />
      <Compile Include="Assets\DreamChaser\Scripts\Powerups\BonusCredits.cs" />
      <Compile Include="Assets\DreamChaser\Scripts\Powerups\Powerup.cs" />
      <Compile Include="Assets\DreamChaser\Scripts\Powerups\PowerupCollectable.cs" />
@@ -229,6 +230,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\DreamChaser\Shaders\ToonLitWithWind.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

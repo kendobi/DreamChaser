@@ -28,7 +28,7 @@ public class SpiritEnergySpawner : MonoBehaviour
     {
         Vector3 spawnPosition = new Vector3(
             Random.Range(-spawnAreaWidth / 2, spawnAreaWidth / 2),
-            0,
+            parentTransform.position.y,
             Random.Range(-spawnAreaHeight / 2, spawnAreaHeight / 2)
         );
 
