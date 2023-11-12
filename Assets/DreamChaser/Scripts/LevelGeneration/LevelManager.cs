@@ -188,7 +188,7 @@ public class LevelManager : MonoBehaviour
 				pos -= posDelta;
 				playerpos -= playerposDelta;
 			}
-			print(playerpos);
+			//print(playerpos);
 			block.transform.position = pos;
 			playerLocation.transform.position = playerpos;
 		}

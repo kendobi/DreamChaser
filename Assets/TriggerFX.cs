@@ -1,32 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TriggerFX : MonoBehaviour {
+public class TriggerFX : MonoBehaviour
+{
+    public GameObject[] objectToActivate;
 
-	public GameObject[] FX;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-
-
-		
-	}
-
-	private void OnTriggerEnter(Collider other){
-	
-		for(int i = 0; i < FX.Length; i++)
-		{
-			FX[i].SetActive(true);
-		}
-		print ("TRIGGER FXXX");
-	
-	
-	}
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player")) // Check for a specific tag (e.g., "Player")
+        {
+            for (int i = 0; i < objectToActivate.Length; i++)
+            {
+                if (objectToActivate[i] != null)
+                {
+                    objectToActivate[i].SetActive(true); // Activate the GameObject
+                }
+                print("TRIGGER FXXX");
+            }
+           
+        }
+    }
 }
