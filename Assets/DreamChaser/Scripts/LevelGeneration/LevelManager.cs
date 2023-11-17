@@ -13,9 +13,9 @@ public class LevelManager : MonoBehaviour
 	[Tooltip("Index of the level section to start at (useful for testing later sections)")]
 	public int startSectionIndex = 1;
 	[Tooltip("Distance to the horizon in meters")]
-	public float horizonDist = 300.0f;
+	public float horizonDist = 400.0f;
 	[Tooltip("Width across the horizon in meters")]
-	public float horizonWidth = 300.0f;
+	public float horizonWidth = 400.0f;
 
 	public const float kBlockSize = 256.0f;         // size of one block tile in x,z dimensions
 	public float maxRangeLeft = -1500.0f;
