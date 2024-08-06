@@ -153,6 +153,13 @@
      <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PeriodicShake.cs" />
      <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PlaySound.cs" />
      <Compile Include="Assets\Low Poly Animated Animals\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Direct.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Profile.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\MobileColorGrading.cs" />
